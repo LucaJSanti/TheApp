@@ -22,5 +22,7 @@
         android:background="@drawable/degradado"
         android:fitsSystemWindows="true"
         app:itemTextColor="@color/white"
-        app:menu="@menu/activity_main_drawer" />
+        app:menu="@menu/activity_main_drawer"
+        app:theme="@style/MenuA"
+        />
 </androidx.drawerlayout.widget.DrawerLayout>

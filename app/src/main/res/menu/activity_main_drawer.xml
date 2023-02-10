@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/navegacion"
+        android:checkableBehavior="single">
+
         <item
             android:id="@+id/nav_prin"
             android:title="@string/menu_home" />
@@ -14,10 +17,16 @@
             android:id="@+id/nav_pulverizador"
             android:title="@string/menu_Pulverizador" />
         <item
-            android:id="@+id/nav_pagnas"
+            android:id="@+id/nav_paginas"
             android:title="@string/menu_Paginas" />
+
+    </group>
+    <group
+        android:id="@+id/creator"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_Acerca_de"
             android:title="@string/menu_Acercade" />
     </group>
+
 </menu>
